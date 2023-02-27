@@ -134,21 +134,28 @@ main {
           transform: rotateY(0deg);
   z-index: 1;
 }
+.bookletheading .page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 4px solid #530c3a; */
+}
 .page {
   width: 100%;
   height: 100%;
   position: absolute;
-  background-color: #fff;
+  background-color: #530c3a;
 }
 h1 {
   text-align: center;
-  color: #eee;
+  color: #fff;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 2vw;
+  text-shadow: 1px 12px 12px black;
 }
 .page img{
   width: inherit;
-  /* height: inherit; */
+  height: inherit;
 }
 #p_1, #p_3 {
   top: 50%;
@@ -205,19 +212,24 @@ h1 {
 }
 
 #controls {
-  margin: 0 auto;
-  width: 45%;
+  width: 80%;
+  margin: 1em auto;
 }
 #controls div {
   display: inline-block;
-  width: 32%;
-  margin: 5px 0;
+  /* width: 32%; */
+  /* margin: 5px 0; */
   text-align: center;
 }
 #controls div button,
 #controls div select {
-  width: 95%;
-  margin: 0 auto;
+  width: 12em;
+  /* margin: 0 auto; */
+  padding: 0.8em;
+  color: #fff;
+  background-color: #1c0019;
+  border: none;
+  border-radius: 0.4em;
 }
 
 @media print {
