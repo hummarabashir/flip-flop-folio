@@ -81,8 +81,7 @@
 
 
 body {
-  /*background-color: #f9f9f9;*/
-  background-color: #bbb;
+  background: linear-gradient(to right, #e6c6db, #7a95a6);
   margin: 0;
   padding: 0;
 }
@@ -214,6 +213,7 @@ h1 {
 #controls {
   width: 80%;
   margin: 1em auto;
+  /* text-align: center; */
 }
 #controls div {
   display: inline-block;
@@ -223,9 +223,9 @@ h1 {
 }
 #controls div button,
 #controls div select {
-  width: 12em;
+  width: 10.5em;
   /* margin: 0 auto; */
-  padding: 0.8em;
+  padding: 0.9em;
   color: #fff;
   background-color: #1c0019;
   border: none;
@@ -276,4 +276,15 @@ h1 {
   #p_2, #p_3, #p_14, #p_15 {
     top: 75%;
   }
+}
+
+.copyright {
+  position: absolute;
+  width: 100%;
+  line-height: 40px;
+  text-align: center;
+  bottom:0;
+  background: #00426a;
+  color: #f9f9f9;
+  margin: 0;
 }
