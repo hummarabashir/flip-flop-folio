@@ -104,14 +104,6 @@ main {
           animation-timing-function: ease-out;
 }
 
-/*
-  8.5 x 11 ---> padding-bottom: 77.2727%;
-  8.5 x 14 ---> padding-bottom: 60.7143%;
-  11 x 17 ---> padding-bottom: 64.7059%;
-  A4 ---> padding-bottom: 70.7070%;
-  A3 ---> padding-bottom: 70.7143%:
-*/
-
 .page-wrapper {
   position: absolute;
   width: 25%;
