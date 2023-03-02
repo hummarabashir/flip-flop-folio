@@ -280,3 +280,9 @@ h1 {
   color: #f9f9f9;
   margin: 0;
 }
+button#flip.disabled {
+  pointer-events:none;
+  color: #e6c6db;
+  background-color: #5b003a;
+  cursor:not-allowed;
+}

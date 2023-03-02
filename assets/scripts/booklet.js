@@ -137,16 +137,21 @@ function foldUnfold() {
 }
 
 $("#fold").click(function() {
+  $("#flip").addClass("disabled");
   if ( ($(".page-wrapper").hasClass("front flipped")) || ( $(".signature-wrapper").hasClass("turned")) ) {
     setTimeout(function(){ foldUnfold(); }, 1200);
   } else {
     foldUnfold();
+    $("#flip").removeClass("disabled");
   }
   if ( $(".page-wrapper").hasClass("front flipped") ) {
     flipSignatureBack(1);
     $(".page-wrapper.back").addClass("flipped");
     $(".page-wrapper.front").removeClass("flipped");
     flipAction = 1;
+  }
+  if ( ($(".page-wrapper.back").hasClass("flipped folded")) || ($(".page-wrapper.front").hasClass("folded")) ) {
+    $("#flip").addClass("disabled");
   }
 
 });
@@ -170,7 +175,7 @@ function flipFlip(flipDuration) {
 
 $("#flip").click(function() {
   if ( $(".page-wrapper").hasClass("folded") ) {
-    // $("#flip").addClass("disabled");
+    // $("#flip").removeClass("disabled");
     unfoldSignature(1);
     foldAction = 1;
     $(".page-wrapper").removeClass("folded");
