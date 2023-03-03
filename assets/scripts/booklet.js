@@ -108,16 +108,46 @@ function flipSignatureBack(flipDuration) {
     "animation-duration": flipDuration + "s",});
 }
 
-$("#turn").click(function() {
-  if ( $(".page-wrapper").hasClass("folded") ) {
-    unfoldSignature(1);
-    foldAction = 1;
-    $(".page-wrapper").removeClass("folded");
-    turnTurn(1);
-  } else {
-    turnTurn(1);
-  }
-});
+// function turnSignature(turnDuration) {
+//   $(".signature-wrapper").css({
+//     "-webkit-animation-name": "turn",
+//     "animation-name": "turn",
+//     "-webkit-animation-duration": turnDuration + "s",
+//     "animation-duration": turnDuration + "s",});
+// }
+
+// function turnSignatureBack(turnDuration) {
+//   $(".signature-wrapper").css({
+//     "-webkit-animation-name": "turn-back",
+//     "animation-name": "turn-back",
+//     "-webkit-animation-duration": turnDuration + "s",
+//     "animation-duration": turnDuration + "s",});
+// }
+
+// var turnAction = 1;
+
+// function turnTurn(turnDuration) {
+//   if ( turnAction == 1 ) {
+//     turnSignature(turnDuration);
+//     turnAction = 2;
+//     $(".signature-wrapper").addClass("turned");
+//   } else {
+//     turnSignatureBack(1);
+//     turnAction = 1;
+//     $(".signature-wrapper").removeClass("turned");
+//   }
+// }
+
+// $("#turn").click(function() {
+//   if ( $(".page-wrapper").hasClass("folded") ) {
+//     unfoldSignature(1);
+//     foldAction = 1;
+//     $(".page-wrapper").removeClass("folded");
+//     turnTurn(1);
+//   } else {
+//     turnTurn(1);
+//   }
+// });
 
 var foldAction = 1;
 $(".page-wrapper").addClass("folded");
