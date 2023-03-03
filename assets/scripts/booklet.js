@@ -108,6 +108,96 @@ function flipSignatureBack(flipDuration) {
     "animation-duration": flipDuration + "s",});
 }
 
+// function foldSignature(foldDuration) {
+//   $("#p_4, #p_5, #p_12, #p_13").css({
+//       "-webkit-animation-name": "fold1",
+//       "animation-name": "fold1",
+//       "-webkit-animation-fill-mode": "forwards",
+//       "animation-fill-mode": "forwards",
+//       "-webkit-animation-delay": "",
+//       "animation-delay": "",
+//       "-webkit-animation-duration": foldDuration / 3 + "s",
+//       "animation-duration": foldDuration / 3 + "s",});
+//   $("#p_8, #p_9").css({
+//       "-webkit-transform-origin": "bottom",
+//       "transform-origin": "bottom",
+//       "-webkit-animation-name": "fold2",
+//       "animation-name": "fold2",
+//       "-webkit-animation-fill-mode": "forwards",
+//       "animation-fill-mode": "forwards",
+//       "-webkit-animation-delay": foldDuration / 3 + "s",
+//       "animation-delay": foldDuration / 3 + "s",
+//       "-webkit-animation-duration": foldDuration / 3 + "s",
+//       "animation-duration": foldDuration / 3 + "s",});
+//   $("#p_16").css({
+//       "-webkit-transform-origin": "right",
+//       "transform-origin": "right",
+//       "-webkit-animation-name": "fold3",
+//       "animation-name": "fold3",
+//       "-webkit-animation-delay": (foldDuration / 3) * 2 + "s",
+//       "animation-delay": (foldDuration / 3) * 2 + "s",
+//       "-webkit-animation-duration": foldDuration / 3 + "s",
+//       "animation-duration": foldDuration / 3 + "s",});
+// }
+
+// function unfoldSignature(foldDuration) {
+//   $("#p_16").css({
+//       "-webkit-transform-origin": "right",
+//       "transform-origin": "right",
+//       "-webkit-animation-name": "unfold3",
+//       "animation-name": "unfold3",
+//       "-webkit-animation-delay": "",
+//       "animation-delay": "",
+//       "-webkit-animation-duration": foldDuration / 3 + "s",
+//       "animation-duration": foldDuration / 3 + "s",});
+//   $("#p_8, #p_9").css({
+//       "-webkit-transform-origin": "bottom",
+//       "transform-origin": "bottom",
+//       "-webkit-animation-name": "unfold2",
+//       "animation-name": "unfold2",
+//       "-webkit-animation-fill-mode": "backwards",
+//       "animation-fill-mode": "backwards",
+//       "-webkit-animation-delay": foldDuration / 3 + "s",
+//       "animation-delay": foldDuration / 3 + "s",
+//       "-webkit-animation-duration": foldDuration / 3 + "s",
+//       "animation-duration": foldDuration / 3 + "s",});
+//   $("#p_4, #p_5, #p_12, #p_13").css({
+//       "-webkit-animation-name": "unfold1",
+//       "animation-name": "unfold1",
+//       "-webkit-animation-fill-mode": "backwards",
+//       "animation-fill-mode": "backwards",
+//       "-webkit-animation-delay": (foldDuration / 3) * 2 + "s",
+//       "animation-delay": (foldDuration / 3) * 2 + "s",
+//       "-webkit-animation-duration": foldDuration / 3 + "s",
+//       "animation-duration": foldDuration / 3 + "s",});
+// }
+
+// function flipSignature(flipDuration) {
+//   $(".page-wrapper.front").css({
+//     "-webkit-animation-name": "flipB",
+//     "animation-name": "flipB",
+//     "-webkit-animation-duration": flipDuration + "s",
+//     "animation-duration": flipDuration + "s",});
+//   $(".page-wrapper.back").css({
+//     "-webkit-animation-name": "flipA",
+//     "animation-name": "flipA",
+//     "-webkit-animation-duration": flipDuration + "s",
+//     "animation-duration": flipDuration + "s",});
+// }
+
+// function flipSignatureBack(flipDuration) {
+//   $(".page-wrapper.front").css({
+//     "-webkit-animation-name": "flipA",
+//     "animation-name": "flipA",
+//     "-webkit-animation-duration": flipDuration + "s",
+//     "animation-duration": flipDuration + "s",});
+//   $(".page-wrapper.back").css({
+//     "-webkit-animation-name": "flipB",
+//     "animation-name": "flipB",
+//     "-webkit-animation-duration": flipDuration + "s",
+//     "animation-duration": flipDuration + "s",});
+// }
+
 // function turnSignature(turnDuration) {
 //   $(".signature-wrapper").css({
 //     "-webkit-animation-name": "turn",
